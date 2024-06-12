@@ -20,7 +20,7 @@
     transition: transform 0.3s, opacity 0.3s, filter 0.3s;
 }
 
-.card{
+/*.card{
     view-timeline: --image;
     view-timeline-axis: block;
 
@@ -28,7 +28,7 @@
     animation-name: show;
     animation-range: entry 10% cover 50%;
     animation-fill-mode: both;
-}
+}*/
 
 .ola,.olaVolteada{
     width: 100%;

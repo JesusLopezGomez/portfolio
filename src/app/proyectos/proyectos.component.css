@@ -10,7 +10,7 @@
 }
 
 
-.col-12{
+/*.col-12{
     view-timeline: --image;
     view-timeline-axis: block;
 
@@ -19,7 +19,7 @@
     animation-range: entry 10% cover 50%;
     animation-fill-mode: both;
     transition: transform 0.3s, opacity 0.3s, filter 0.3s;
-}
+}*/
     
 .card{
     width: 25rem;

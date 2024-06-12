@@ -9,7 +9,7 @@
     }
 }
 
-.tech-item{
+/*.tech-item{
     view-timeline: --image;
     view-timeline-axis: block;
 
@@ -18,7 +18,7 @@
     animation-range: entry 10% cover 50%;
     animation-fill-mode: both;
     animation-duration: 1s;
-}
+}*/
 
 main{
     background-color: white;
@@ -85,7 +85,6 @@ main{
 @media (max-width: 550px) and (min-width: 400px) {
     .containerTech{
         margin: 0 auto;
-        margin-left: 4%;
     }
 }
 
@@ -99,7 +98,6 @@ main{
 
     .containerTech {
         margin: 0 auto;
-        margin-left: 3%;
     }
 }
 
