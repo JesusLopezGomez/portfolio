@@ -8,6 +8,7 @@ import { ProyectosComponent } from './proyectos/proyectos.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { FooterComponent } from './footer/footer.component';
+import { inject } from "@vercel/analytics"
 
 @Component({
   selector: 'app-root',
