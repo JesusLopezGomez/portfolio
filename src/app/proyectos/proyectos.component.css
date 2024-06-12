@@ -1,0 +1,96 @@
+@keyframes show {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px) rotate(-15deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) rotate(0);
+    }
+}
+
+
+.col-12{
+    view-timeline: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 10% cover 50%;
+    animation-fill-mode: both;
+    transition: transform 0.3s, opacity 0.3s, filter 0.3s;
+}
+    
+.card{
+    width: 25rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.card-img-wrapper {
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.card-img-top {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card-body {
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.card-text {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p.text-center {
+    margin: 0;
+}
+
+.containerProyect{
+    margin-top: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+@media (max-width: 575px) {
+    .card {
+        width: 93%;
+        max-width: 700%;
+        margin-left: 3%; 
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .card {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+@media (min-width: 992px) {
+    .card {
+        width: 100%;
+        max-width: 500px;
+    }
+}

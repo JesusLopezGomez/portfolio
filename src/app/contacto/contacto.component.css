@@ -1,0 +1,19 @@
+.container {
+    text-align: center;
+}
+
+.icon {
+    width: 4.5rem;
+    height: 4.5rem; 
+    border-radius: 50%; 
+    margin: 10px;
+    background: -webkit-linear-gradient(#74b3dd, #383add);
+    border: 2px solid white;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.10);
+    transition: all 0.3s ease;
+}

@@ -1,0 +1,107 @@
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+}
+
+.hello{
+    font-size: 65pt;
+    font-weight: 500;
+}
+
+.name{
+    background: -webkit-linear-gradient(#74b3dd, #383add);
+    clip:"text";
+    background-clip:"text";
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fullstack{
+    margin-top: 1rem;
+    font-size: 35pt;
+    font-weight: 400;
+    background: linear-gradient(270deg, #383add, #383add, #ffffff, #383add);
+    background-size: 400% 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientAnimation 4.5s infinite;
+}
+
+.info{
+    font-style: oblique;
+    font-size: 15pt;
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400; 
+}
+
+.codeLine{
+    font-size: 15pt;
+    font-weight: 600;
+}
+
+.imgJesus{
+    margin: 0 auto;
+    display: block;
+    border-radius: 10%;
+    width: 40%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 991px) {
+    .hello{
+        font-size: 45pt;
+        font-weight: 500;
+    }
+
+    .fullstack{
+        font-size: 25pt;
+    }
+    
+    .info{
+        font-style: oblique;
+        font-size: 12pt;
+        max-width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 400; 
+    }
+    .codeLine{
+        font-size: 12pt;
+        font-weight: 600;
+        margin: 0 auto;
+        max-width: 65%;
+    }
+}
+
+@media (max-width: 767px) {
+    .hello{
+        font-size: 33pt;
+        font-weight: 500;
+    }
+
+    .fullstack{
+        font-size: 20pt;
+    }
+    
+    .info{
+        font-style: oblique;
+        font-size: 11pt;
+        max-width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 400; 
+    }
+    .codeLine{
+        font-size: 11pt;
+        font-weight: 600;
+        margin: 0 auto;
+        max-width: 65%;
+    }
+}

@@ -1,0 +1,61 @@
+@keyframes show {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px) rotate(-15deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) rotate(0);
+    }
+}
+
+.card{
+    width: 30rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    transition: transform 0.3s, opacity 0.3s, filter 0.3s;
+}
+
+.card{
+    view-timeline: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 10% cover 50%;
+    animation-fill-mode: both;
+}
+
+.ola,.olaVolteada{
+    width: 100%;
+    height: auto;
+}
+
+main{
+    background-color: white;
+    margin-top: -1px;
+}
+
+.olaVolteada{
+    margin-top: -10px;
+}
+
+.card-title{
+    margin-bottom: 1rem;
+}
+
+li{
+    text-align: justify;
+}
+
+@media (max-width: 1199px) {
+    .row > [class*='col-'] {
+        max-width: 82%;
+        margin: 0.2rem;
+        padding: 0;
+    }
+}

@@ -1,0 +1,52 @@
+.container-fluid{
+    margin-left: 1rem;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 1.50rem;
+}
+
+.nav-link{    
+    font-size: 1.30rem;
+    font-weight: 450;
+}
+
+.download-cv{
+    font-size: 16px;
+    padding: 6px;
+    border-radius: 20px;
+    font-weight: bolder;
+    border: 3px solid #4f75a8;
+    transition: all ease .3s;
+}
+
+.download-cv:hover{
+    transform: scale(1.05);
+    transition: all ease.3s;
+}
+
+.download-cv a {
+    transition: all .3s;
+}
+
+a{
+    text-decoration: none;
+}
+
+.download-cv a:hover {
+    border-color: #74b3dd;
+}
+
+.formEnvold{
+    margin-right: 1%;
+}
+
+@media (max-width:991px) {
+    .download-cv{
+        border: none;
+    }
+    .formEnvold{
+        margin-left: -4px;
+    }
+}
