@@ -72,6 +72,23 @@ a{
     text-decoration: none;
 }
 
+.project {
+    transition: transform 0.3s ease, filter 0.3s ease; /* Animación suave para escala y desenfoque */
+    filter: none; /* Ambos proyectos claros inicialmente */
+}
+
+.project:hover {
+    transform: scale(1.01); /* Aumenta el tamaño del proyecto en hover */
+    filter: none; /* El proyecto en hover se mantiene claro */
+}
+
+.containerProyect:hover .project:not(:hover) {
+    filter: blur(3px); /* Desenfoca los proyectos que no están en hover */
+}
+
+
+
+
 
 @media (max-width: 575px) {
     .card {
